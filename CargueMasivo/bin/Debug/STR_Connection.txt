@@ -1,0 +1,1 @@
+Data source= RODRIGUEZQUINTE\SQLEXPRESS;database=TVC;User ID=sa;password=123456;

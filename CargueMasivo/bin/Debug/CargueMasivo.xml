@@ -1,0 +1,153 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CargueMasivo
+</name>
+</assembly>
+<members>
+<member name="M:CargueMasivo.BDClass.EjecProcedimientos(System.String,System.String)">
+	<summary>
+ funcion para ejecuta procedimientos almacenados
+ </summary>
+	<param name="vp_S_conexion"></param>
+	<param name="vp_S_StrQuery"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CargueMasivo.BDClass.QueryResultado(System.String,System.String)">
+	<summary>
+ funcion generica para consultas de un solo resultado tipo integer
+ </summary>
+	<param name="vp_S_StrQuery"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CargueMasivo.cargue.Main">
+	<summary>
+ main que ejecuta la carga masiva
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CargueMasivo.cargue.CapturaRutas(System.String,System.String)">
+	<summary>
+ verifica y trae las rutas de los archivos txt
+ </summary>
+	<param name="vp_S_Path"></param>
+	<param name="vp_S_TipoRuta"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CargueMasivo.cargue.SABANA_1(System.String,System.String)">
+	<summary>
+ FUNCION QUE REALIZA EL PROCESO DEL CARGUE SABANA_1
+ </summary>
+	<param name="vp_S_Ruta"></param>
+	<param name="vp_S_Conexion"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CargueMasivo.cargue.ENTRADA">
+	<summary>
+ TRAE EL ENCABEZADO DEL DESARROLLO
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CargueMasivo.cargue.ENT_SABANA_1(System.String,System.String)">
+	<summary>
+ construye el encabesado de SABANA 1 y ejecuta el proceso SABANA 1
+ </summary>
+	<param name="vp_S_Ruta"></param>
+	<param name="vp_S_Conexion"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CargueMasivo.cargue.Readruta(System.String,System.String)">
+	<summary>
+ leer ruta del txt
+ </summary>
+	<param name="vp_S_RutaAPP"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CargueMasivo.cargue.copyTemporal(System.String,System.String,System.String)">
+	<summary>
+ hace bulkcopy del excel la tablatemporal SABANA 1
+ </summary>
+	<param name="vp_S_NameExcel"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CargueMasivo.S_CGA_1.InsertGlobal(System.String)">
+	<summary>
+ Carga inicial
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CargueMasivo.S_CGA_1.Insert_CGA(System.String)">
+	<summary>
+ INSERTA LOS REGISTROS NUEVOS DE LA TABLA TEMP_SABANA
+ </summary>
+	<param name="vp_S_conexion"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CargueMasivo.S_CGA_1.Update_Keys(System.String)">
+	<summary>
+ actualizacion de llaves en la tabla temporal
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CargueMasivo.S_CGA_1.Update_CGA(System.String)">
+	<summary>
+ ACTUALIZACION EN TABLA S_CGA
+ </summary>
+	<param name="vp_S_Conexion"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CargueMasivo.S_CGA_1.DEL_TEMP(System.String)">
+	<summary>
+ FUNCION QUE LIMPIA LA TABLA TEMPORAL
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CargueMasivo.S_CGA_1.DEL_TEMP_Update(System.String)">
+	<summary>
+ ELIMINA LOS REGISTROS YA INSERTADOS DE LA TABLA TEMP_SABANA EN LA TABLA S_CGA
+ </summary>
+	<param name="vp_S_conexion"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CargueMasivo.S_CGA_1.CargaInicial(System.String)">
+	<summary>
+ funcion si valida si la tabla S_CGA esta vacia o no
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CargueMasivo.S_CGA_1.Count_inicial(System.String)">
+	<summary>
+ DICE LA CANTIDAD DE REGISTROS QUE SE REALIZA EN LA CARGA INICIAL
+ </summary>
+	<param name="vp_S_Conexion"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CargueMasivo.S_CGA_1.Count_updateInsert(System.String,System.String)">
+	<summary>
+ DICE LA CANTIDAD DE REGISTROS QUE SE REALIZA EN EL UPDATE E INSERT
+ </summary>
+	<param name="vp_S_Conexion"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:CargueMasivo.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:CargueMasivo.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:CargueMasivo.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:CargueMasivo.S_CGA_3.Update_Keys(System.String)">
+	<summary>
+ actualizacion de llaves en la tabla temporal
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>
